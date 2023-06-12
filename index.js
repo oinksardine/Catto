@@ -32,6 +32,21 @@ client.once('ready', () => {
 //A chaque message (channels où Cattô est présent)
 client.on('message', message => {
   
+  //Cattô a 13 ans, il réponds "feur" si tu finis ta phrase par "quoi"
+  if(message.content.endsWith("quoi")){
+      message.reply("feur");
+  }
+
+  //Cattô a 13 ans, il réponds "deux" si tu finis ta phrase par "hein"
+  if(message.content.endsWith("hein")){
+      message.reply("deux");
+  }
+
+  //Cattô a 13 ans, il réponds "sititi" si tu finis ta phrase par "oui"
+  if(message.content.endsWith("oui")){
+    message.reply("stiti");
+  }
+
   //Cattô réagit à une salutation le concernant
   if (wordlists.GREETINGS.some(word => message.content.toLowerCase().includes(word)) && wordlists.CATTO.some(word => message.content.toLowerCase().includes(word)) && message.author.bot == false) {
     let chosenWord = wordlists.GREETS[Math.floor(Math.random() * wordlists.GREETS.length)];

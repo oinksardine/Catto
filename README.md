@@ -4,6 +4,7 @@ Cattô est un bot polyvalent : son but à l'origine était de créer un bot capa
 du site thiscatdoesntexist.com afin de partager des photos de chat sur le serveur de la LP Bilbiothèque de l'UCA (PROMO 2020/2021).
 
 Il envoie désormais des photos à l'aide des commandes *!bestiole* et *!meme*. Il répond également quand on l'insulte, lui dit bonjour ou le remercie.
+Il a également 6 ans et demi et réponds "feur" quand on finit un msg par quoi.
 Il est présent sur 3 serveurs Discord.
 
 Ce développement me permet d'apprendre comment coder en NodeJS, et comment utiliser Discord.js
