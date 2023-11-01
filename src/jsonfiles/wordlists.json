@@ -1,5 +1,5 @@
 {
-    "BADWORDS": ["merde", "putain", "chier", "bordel", 
+    "BADWORDS": ["merde", "putain", "chier", "bordel",
         "pute", "salope", "connard", "connasse", "enculé", 
         "pétasse", "bâtard", "nique", "baka", "gilipollas",
         "ntm", "fdp", "petasse", "batard", "encule", "con", "ta race", "gueule", "mort"],
@@ -8,13 +8,13 @@
         "hello", "salutation", "bien le bonjour", "bonjoir", "wesh", "hola", 
         "holà", "cc", "slt"],
         
-    "CATTO": ["cato", "cattô", "catto"],
+    "CATTO": ["cato", "cattô", "catto", "catito", "cat"],
 
     "THANKS": ["cimer", "merci", "thx", "thank", "remercie"],
 
     "GREETS": ["Salut !", "Coucou !", "Heeey!", "Yo !", "Wsh"],
     
-    "INSULTS": ["Mais tu veux quoi toi ?", "????????", "Ta gueule sale merde", "Ferme la sale chien",
+    "INSULTS": ["Mais tu veux quoi toi ?", "????????", "Ta gueule sale merde", "Ferme la sale chien", "aret", "*snif*",
     "*cringe*", "T'es con ou quoi ?", "Comment tu parles ? T'embrasses ta daronne avec cette bouche ?"],
 
     "GOGOLE": ["T'as cru que j'étais Google grosse merde ?"],

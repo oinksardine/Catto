@@ -47,6 +47,11 @@ client.on('message', message => {
     message.reply("stiti");
   }
 
+  //Cattô a 13 ans, il réponds "trois, soleil" si tu finis ta phrase par "deux"
+  if(message.content.endsWith("deux")){
+    message.reply("trois, soleil !");
+  }
+
   //Cattô réagit à une salutation le concernant
   if (wordlists.GREETINGS.some(word => message.content.toLowerCase().includes(word)) && wordlists.CATTO.some(word => message.content.toLowerCase().includes(word)) && message.author.bot == false) {
     let chosenWord = wordlists.GREETS[Math.floor(Math.random() * wordlists.GREETS.length)];
@@ -91,7 +96,7 @@ client.on('message', message => {
       client.commands.get(command).execute(message, args);
     } catch (error) {
       console.error(error);
-      message.reply("Une erreur s'est produite pendant l'exécution de la commande ! Contacte @Louise#1515 pour lui faire parvenir ce problème !");
+      message.reply("Une erreur s'est produite pendant l'exécution de la commande !");
     };
 
 })
