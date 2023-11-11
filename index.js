@@ -33,22 +33,22 @@ client.once('ready', () => {
 client.on('message', message => {
   
   //Cattô a 13 ans, il réponds "feur" si tu finis ta phrase par "quoi"
-  if(message.content.endsWith("quoi")){
+  if(message.content.endsWith("quoi") && message.author.bot == false){
       message.reply("feur");
   }
 
   //Cattô a 13 ans, il réponds "deux" si tu finis ta phrase par "hein"
-  if(message.content.endsWith("hein")){
+  if(message.content.endsWith("hein") && message.author.bot == false){
       message.reply("deux");
   }
 
   //Cattô a 13 ans, il réponds "sititi" si tu finis ta phrase par "oui"
-  if(message.content.endsWith("oui")){
+  if(message.content.endsWith("oui") && message.author.bot == false){
     message.reply("stiti");
   }
 
   //Cattô a 13 ans, il réponds "trois, soleil" si tu finis ta phrase par "deux"
-  if(message.content.endsWith("deux")){
+  if(message.content.endsWith("deux") && message.author.bot == false){
     message.reply("trois, soleil !");
   }
 
