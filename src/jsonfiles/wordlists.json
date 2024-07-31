@@ -8,7 +8,7 @@
         "hello", "salutation", "bien le bonjour", "bonjoir", "wesh", "hola", 
         "holà", "cc", "slt"],
         
-    "CATTO": ["cato", "cattô", "catto", "catito", "cat"],
+    "CATTO": ["cato", "cattô", "catto", "catito"],
 
     "THANKS": ["cimer", "merci", "thx", "thank", "remercie"],
 
@@ -19,5 +19,11 @@
 
     "GOGOLE": ["T'as cru que j'étais Google grosse merde ?"],
 
-    "NP": ["Avec plaisir !", "Tqt", "De rien !"]
+    "NP": ["Avec plaisir !", "Tqt", "De rien !"],
+
+    "REACTIONS": ["https://tenor.com/view/ami-fat-cat-fgcat-grin-gif-19319580", 
+    "https://tenor.com/view/laughing-cat-catlaughing-laughingcat-point-gif-7577620470218150413", 
+    "https://tenor.com/view/hehe-cat-hehecat-haha-hahaha-gif-4730613601783759692", 
+    "https://tenor.com/view/cat-laugh-cute-gif-16107322", 
+    "https://tenor.com/view/cat-laugh-by-m-by-demi-gif-7077537185188239597"]
 }
