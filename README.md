@@ -9,6 +9,8 @@ Il est présent sur 3 serveurs Discord.
 
 Ce développement me permet d'apprendre comment coder en NodeJS, et comment utiliser Discord.js
 
+Prochain objectif : implémenter une librairie Ollama, et faire de Cattô un vrai chat, grâce à l'IA.
+
 ##Documentation :
 https://Discord.js.org
 https://nodejs.org/fr/
